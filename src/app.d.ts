@@ -6,7 +6,13 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+		interface Locals {
+			user?: {
+				name: string
+				role: string
+			}
+		}
 	}
 }
 
-export {};
+export {}

@@ -1,0 +1,68 @@
+/*! root.css  */
+:root {
+	--white: hsl(0, 0%, 100%);
+	--blue-1: hsl(210, 96%, 47%);
+	--blue-2: hsl(210, 84%, 70%);
+	--blue-3: hsl(210, 90%, 50%); /* a */
+	--blue-4: hsl(210, 90%, 30%); /* a:hover */
+	--blue-5: hsl(210, 40%, 50%); /* drop-zone border */
+	--blue-6: hsl(210, 40%, 30%); /* drop-zone:hover border */
+	--blue-7: hsl(210, 73%, 73%);
+	--black-1: hsl(0, 0%, 11%);
+	--black-2: hsl(0, 0%, 13%);
+	--black-3: hsl(0, 0%, 20%);
+	--black-4: hsl(0, 0%, 40%);
+	--black-5: hsl(0, 0%, 50%);
+	--black-6: hsl(0, 1%, 70%);
+	--grey-1: hsl(0, 0%, 97%);
+	--grey-2: hsl(0, 2%, 89%);
+	--grey-3: hsl(210, 23%, 95%);
+	--orange-1: hsl(39, 100%, 50%);
+	--orange-2: hsl(39, 17%, 90%);
+	--red-1: hsl(16, 100%, 50%);
+	--red-2: hsl(0, 59%, 41%);
+
+	--primary-color: var(--blue-1);
+	--header-text-color: var(--white);
+	--main-text-color: var(--black-3);
+	--nav-text-color: var(--blue-2);
+	--nav-link-hover-color: var(--white);
+	--footer-text-color: var(--black-4);
+
+	--header-bg-color: var(--primary-color);
+	--footer-bg-color: var(--black-1);
+	--main-bg-color: var(--grey-1);
+	--nav-bg-color: var(--black-2);
+	--border-input-color: var(--grey-2);
+	--border-table-color: var(--grey-2);
+
+	--link-color: var(--blue-3);
+	--link-hover-color: var(--blue-4);
+	--focus-outline-color: var(--blue-1);
+	--input-focus: 0 0 5px var(--focus-outline-color);
+
+	--dropbox-dragover-border-color: var(--orange-1);
+	--dropbox-dragover-bg-color: var(--orange-2);
+	--dropbox-border-color: var(--blue-5);
+	--dropbox-hover-border-color: var(--blue-6);
+
+	--btn-bg-color: var(--blue-7);
+	--btn-text-color: var(--black-3);
+	--btn-box-shadow-color: var(--black-6);
+	--btn-bg-color2: var(--grey-3);
+
+	--warning-color: var(--red-1);
+	--alarm-color: var(--red-2);
+
+	--font-family: 'Roboto', sans-serif;
+	--max-width: 56.25em; /*900*/
+}
+
+/* svelte-dialogs */
+.dialog-content__divider {
+	border: 1px solid var(--primary-color) !important;
+}
+input[type='radio']:focus {
+	outline: 1px solid var(--primary-color);
+	outline-offset: 2px;
+}

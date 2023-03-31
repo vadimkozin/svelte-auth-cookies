@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import '@fontsource/roboto/300';
+@import '@fontsource/roboto/400';
+@import '@fontsource/roboto/500';
+@import './styles/normalize.css';
+@import './styles/reset.css';
+@import './styles/root.css';
+@import './styles/global.css';
+@import './styles/animations.css';

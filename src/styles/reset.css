@@ -1,0 +1,53 @@
+/*! reset.css  */
+:root {
+	box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
+	font-family: var(--font-family);
+}
+
+html,
+body,
+.body {
+	height: 100%;
+	color: var(--main-text-color);
+}
+
+:focus-visible {
+	outline: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+img,
+video,
+iframe {
+	max-inline-size: 100%;
+	block-size: auto;
+}
